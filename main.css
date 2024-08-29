@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(23 23 23);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 600px;
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 250px;
+
+}
+
+.header {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.refresh-logo {
+
+    width: 300px;
+
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.refresh-link {
+    color: wheat;
+    text-decoration: none;
+    transition: color 200ms
+}
+
+
+.top-rights {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: wheat;
+
+
+    align-self: flex-start;
+    font-size: 25px;
+}
+
+.refresh-link:hover {
+    color: white;
+}
+
+.top-heading {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.links {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+.hp-links {
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    /* Adjust the spacing between the text and the line */
+    width: 110%;
+    /* Ensures the line spans the entire width of the container */
+    text-align: left;
+    /* Centers the text */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    /* Subtle line below each link */
+    transition: color 200ms, border-color 200ms;
+}
+
+.hp-links:hover {
+    color: white;
+}
+
+.git-log {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}
+
+.logo img {
+    margin-left: 50px;
+    width: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.end-creds {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.end-txt{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.507);
+    transition: color 200ms;
+}
+
+.end-txt:hover{
+    color: rgba(255, 255, 255, 0.819);
+}
